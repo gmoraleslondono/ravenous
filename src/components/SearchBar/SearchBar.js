@@ -1,5 +1,12 @@
 import React from 'react';
 import './SearchBar.css';
-class SearchBar extends React.Component {
 
+const sortByOptions = {
+  'Best Match': 'best_match',
+  'Highest Rated': 'rating',
+  'Most Reviewed': 'review_count'
+}
+
+class SearchBar extends React.Component {
+  
 }
